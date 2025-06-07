@@ -1,3 +1,9 @@
 waveform-inversion/
 env/
+efficient_checkpoints/
+enhanced_checkpoints/
+fixed_full_dataset_checkpoints/ 
+full_dataset_checkpoints/
+seismic_inversion_checkpoints/
+__pycache__/
 .DS_Store

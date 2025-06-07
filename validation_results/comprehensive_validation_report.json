@@ -1,0 +1,44 @@
+{
+  "model_path": "fixed_full_dataset_checkpoints/best_fixed_model.pth",
+  "validation_timestamp": "2025-06-06 23:14:11",
+  "training_analysis": {
+    "total_epochs": 32,
+    "final_train_loss": 0.03646798378694802,
+    "final_val_loss": 0.03669123325496912,
+    "best_val_loss": 0.03669123325496912,
+    "best_val_epoch": 32,
+    "final_train_rmse": 534.5299837646485,
+    "final_val_rmse": 537.6837739257812,
+    "best_val_rmse": 537.6837739257812,
+    "training_improvement": 53.9740433429919,
+    "converged": false
+  },
+  "validation_results": {
+    "total_samples": 6,
+    "avg_loss": 0.0154757141135633,
+    "avg_rmse": 335.8548177083333,
+    "avg_mae": 284.7510070800781,
+    "avg_correlation": 0.8805353840192159,
+    "avg_ssim": 0.3412090515096982,
+    "scenario_results": {
+      "FlatVel_A": {
+        "samples": 2,
+        "avg_loss": 0.014159333426505327,
+        "avg_rmse": 318.2126159667969,
+        "avg_correlation": 0.9178140759468079
+      },
+      "Style_A": {
+        "samples": 2,
+        "avg_loss": 0.015370666515082121,
+        "avg_rmse": 330.37200927734375,
+        "avg_correlation": 0.8269668519496918
+      },
+      "FlatFault_A": {
+        "samples": 2,
+        "avg_loss": 0.01689714239910245,
+        "avg_rmse": 358.9798278808594,
+        "avg_correlation": 0.8968252241611481
+      }
+    }
+  }
+}

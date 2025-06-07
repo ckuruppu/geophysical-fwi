@@ -1,0 +1,361 @@
+{
+  "summary": {
+    "total_scenarios": 10,
+    "total_samples": 20000,
+    "total_size_gb": 13.221060037612915,
+    "processing_time": 0.5087199211120605,
+    "peak_memory_mb": 95.46875
+  },
+  "scenarios": [
+    {
+      "scenario": "CurveFault_A",
+      "structure": "direct_files",
+      "total_files": 4,
+      "total_samples": 2000,
+      "total_size_gb": 1.3221060037612915,
+      "data_shapes": [
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ]
+      ],
+      "model_shapes": [],
+      "processing_time": 0.05309605598449707
+    },
+    {
+      "scenario": "CurveFault_B",
+      "structure": "direct_files",
+      "total_files": 4,
+      "total_samples": 2000,
+      "total_size_gb": 1.3221060037612915,
+      "data_shapes": [
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ]
+      ],
+      "model_shapes": [],
+      "processing_time": 0.04076027870178223
+    },
+    {
+      "scenario": "CurveVel_A",
+      "structure": "data/model_dirs",
+      "total_files": 4,
+      "total_samples": 2000,
+      "total_size_gb": 1.3221060037612915,
+      "data_shapes": [
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ]
+      ],
+      "model_shapes": [],
+      "processing_time": 0.038800954818725586
+    },
+    {
+      "scenario": "CurveVel_B",
+      "structure": "data/model_dirs",
+      "total_files": 4,
+      "total_samples": 2000,
+      "total_size_gb": 1.3221060037612915,
+      "data_shapes": [
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ]
+      ],
+      "model_shapes": [],
+      "processing_time": 0.03813600540161133
+    },
+    {
+      "scenario": "FlatFault_A",
+      "structure": "direct_files",
+      "total_files": 4,
+      "total_samples": 2000,
+      "total_size_gb": 1.3221060037612915,
+      "data_shapes": [
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ]
+      ],
+      "model_shapes": [],
+      "processing_time": 0.037531137466430664
+    },
+    {
+      "scenario": "FlatFault_B",
+      "structure": "direct_files",
+      "total_files": 4,
+      "total_samples": 2000,
+      "total_size_gb": 1.3221060037612915,
+      "data_shapes": [
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ]
+      ],
+      "model_shapes": [],
+      "processing_time": 0.05757904052734375
+    },
+    {
+      "scenario": "FlatVel_A",
+      "structure": "data/model_dirs",
+      "total_files": 4,
+      "total_samples": 2000,
+      "total_size_gb": 1.3221060037612915,
+      "data_shapes": [
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ]
+      ],
+      "model_shapes": [],
+      "processing_time": 0.03925514221191406
+    },
+    {
+      "scenario": "FlatVel_B",
+      "structure": "data/model_dirs",
+      "total_files": 4,
+      "total_samples": 2000,
+      "total_size_gb": 1.3221060037612915,
+      "data_shapes": [
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ]
+      ],
+      "model_shapes": [],
+      "processing_time": 0.03711509704589844
+    },
+    {
+      "scenario": "Style_A",
+      "structure": "data/model_dirs",
+      "total_files": 4,
+      "total_samples": 2000,
+      "total_size_gb": 1.3221060037612915,
+      "data_shapes": [
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ]
+      ],
+      "model_shapes": [],
+      "processing_time": 0.03712320327758789
+    },
+    {
+      "scenario": "Style_B",
+      "structure": "data/model_dirs",
+      "total_files": 4,
+      "total_samples": 2000,
+      "total_size_gb": 1.3221060037612915,
+      "data_shapes": [
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          5,
+          1000,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ],
+        [
+          500,
+          1,
+          70,
+          70
+        ]
+      ],
+      "model_shapes": [],
+      "processing_time": 0.033396005630493164
+    }
+  ]
+}
